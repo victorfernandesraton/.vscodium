@@ -1,0 +1,62 @@
+{
+"workbench.sideBar.location": "right",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Rosé Pine (no italics)",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16,
+  "window.zoomLevel": 0.6,
+  "vim.autoindent": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": true
+  },
+  "workbench.editor.showTabs": "single",
+  "breadcrumbs.enabled": false,
+  "zenMode.showTabs": "none",
+  "zenMode.silentNotifications": false,
+  "zenMode.centerLayout": false,
+  "window.restoreWindows": "none",
+  "python.experiments.enabled": false,
+  "python.testing.cwd": "",
+  "vim.handleKeys": {
+    "<C-p>": false,
+    "<C-w>": false,
+    "<C-e>": false
+  },
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "jdk.jdkhome": "c:\\Program Files\\openjdk\\OpenJDK-21",
+  "json.format.keepLines": true,
+  "editor.formatOnPaste": false,
+  "editor.autoClosingQuotes": "always",
+  "standard.enableGlobally": true,
+  "standard.run": "onType",
+  "standard.enable": true,
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+  "git.autofetch": true,
+  "nodejs-testing.concurrency": 1,
+  "nodejs-testing.include": [
+    "./",
+    "./tests"
+  ],
+  "nodejs-testing.verbose": true
+}
