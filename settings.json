@@ -1,10 +1,10 @@
 {
-"workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "right",
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Rosé Pine (no italics)",
+  "workbench.colorTheme": "Rosé Pine",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "window.zoomLevel": 0.6,
   "vim.autoindent": true,
   "vim.easymotion": true,

@@ -4,8 +4,8 @@
         "key": "a",
         "command": "explorer.newFile",
         "when": "filesExplorerFocus && foldersViewVisible"
-    },{
-                "key": "f1",
+    }, {
+        "key": "f1",
         "command": "workbench.action.toggleZenMode",
         "when": "!isAuxiliaryWindowFocusedContext"
     },
@@ -39,6 +39,14 @@
     {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
-    } 
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.view.testing.focus"
+    }
 
 ]
