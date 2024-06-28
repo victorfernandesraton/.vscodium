@@ -47,6 +47,36 @@
     {
         "key": "ctrl+shift+t",
         "command": "workbench.view.testing.focus"
+    },
+
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.view.testing.focus"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "f9",
+        "command": "-editor.debug.action.toggleBreakpoint",
+        "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "editor.debug.action.toggleBreakpoint"
     }
 
 ]
