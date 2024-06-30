@@ -3,7 +3,7 @@
     {
         "key": "a",
         "command": "explorer.newFile",
-        "when": "filesExplorerFocus && foldersViewVisible"
+        "when": "filesExplorerFocus && foldersViewVisible && !inputFocus"
     }, {
         "key": "f1",
         "command": "workbench.action.toggleZenMode",

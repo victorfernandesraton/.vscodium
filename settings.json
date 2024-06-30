@@ -58,5 +58,6 @@
     "./",
     "./tests"
   ],
-  "nodejs-testing.verbose": true
+  "nodejs-testing.verbose": true,
+  "ruff.nativeServer": true,
 }
