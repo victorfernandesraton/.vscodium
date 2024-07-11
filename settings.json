@@ -13,9 +13,14 @@
   "vim.leader": "<space>",
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
+
   "[python]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "always"
+    }
   },
   "[javascript]": {
     "editor.formatOnSave": false,
@@ -60,4 +65,5 @@
   ],
   "nodejs-testing.verbose": true,
   "ruff.nativeServer": true,
+  "ruff.lint.args": [ "--select", "I", "--fix" ]
 }
