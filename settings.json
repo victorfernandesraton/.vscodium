@@ -65,5 +65,11 @@
   ],
   "nodejs-testing.verbose": true,
   "ruff.nativeServer": true,
-  "ruff.lint.args": [ "--select", "I", "--fix" ]
+  "ruff.lint.args": [
+    "--select",
+    "I",
+    "--fix"
+  ],
+  "markdown.marp.exportType": "html",
+  "markdown.marp.enableHtml": true
 }
