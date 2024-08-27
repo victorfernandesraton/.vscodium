@@ -1,5 +1,4 @@
 {
-  "workbench.sideBar.location": "right",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Rosé Pine",
   "workbench.iconTheme": "material-icon-theme",
@@ -71,5 +70,10 @@
     "--fix"
   ],
   "markdown.marp.exportType": "html",
-  "markdown.marp.enableHtml": true
+  "markdown.marp.enableHtml": true,
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "[php]": {
+    "editor.defaultFormatter": "phpactor.vscode-phpactor"
+  }
 }
