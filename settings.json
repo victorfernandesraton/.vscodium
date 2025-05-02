@@ -1,10 +1,10 @@
 {
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "editor.fontSize": 17,
   "window.zoomLevel": 0.6,
+  "editor.wordWrapColumn": 88,
   "vim.autoindent": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -25,10 +25,9 @@
     "editor.formatOnSave": false,
   },
   "notebook.codeActionsOnSave": {
-    "notebook.source.fixAll": true
+    "notebook.source.fixAll": "explicit"
   },
   "workbench.editor.showTabs": "single",
-  "breadcrumbs.enabled": false,
   "zenMode.showTabs": "none",
   "zenMode.silentNotifications": false,
   "zenMode.centerLayout": false,
@@ -75,5 +74,46 @@
   "workbench.layoutControl.enabled": false,
   "[php]": {
     "editor.defaultFormatter": "phpactor.vscode-phpactor"
-  }
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.editorAssociations": {
+    "*.sqlite3": "default"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "aider-composer.inlineDiff.enable": true,
+  "nodejs-testing.extensions": [
+
+
+    {
+      "extensions": [
+        "mjs",
+        "cjs",
+        "js"
+      ],
+      "parameters": [ ]
+    },
+
+    {
+      "extensions": [
+        "mts",
+        "ts",
+      ],
+      "parameters": [ "--import=tsx" ]
+    }
+  ],
+  "nodejs-testing.envFile": "${workspaceFolder}/.env",
+  "npm.enableRunFromFolder": true,
+  "npm.packageManager": "npm"
 }
