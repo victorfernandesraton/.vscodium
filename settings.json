@@ -1,6 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "editor.minimap.enabled": false,
   "editor.fontSize": 17,
   "window.zoomLevel": 0.6,
@@ -32,8 +31,7 @@
   "zenMode.silentNotifications": false,
   "zenMode.centerLayout": false,
   "window.restoreWindows": "none",
-  "python.experiments.enabled": false,
-  "python.testing.cwd": "",
+  "python.experiments.enabled": true,
   "vim.handleKeys": {
     "<C-p>": false,
     "<C-w>": false,
@@ -45,16 +43,7 @@
   "json.format.keepLines": true,
   "editor.formatOnPaste": false,
   "editor.autoClosingQuotes": "always",
-  "standard.enableGlobally": true,
-  "standard.run": "onType",
-  "standard.enable": true,
-  "standard.autoFixOnSave": true,
-  "standard.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-  ],
+
   "git.autofetch": true,
   "nodejs-testing.concurrency": 1,
   "nodejs-testing.include": [
@@ -63,11 +52,6 @@
   ],
   "nodejs-testing.verbose": true,
   "ruff.nativeServer": true,
-  "ruff.lint.args": [
-    "--select",
-    "I",
-    "--fix"
-  ],
   "markdown.marp.exportType": "html",
   "markdown.marp.enableHtml": true,
   "workbench.sideBar.location": "right",
@@ -79,12 +63,6 @@
   "workbench.editorAssociations": {
     "*.sqlite3": "default"
   },
-  "[json]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
   "editor.wordWrap": "on",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -92,7 +70,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "aider-composer.inlineDiff.enable": true,
   "nodejs-testing.extensions": [
 
 
@@ -115,5 +92,11 @@
   ],
   "nodejs-testing.envFile": "${workspaceFolder}/.env",
   "npm.enableRunFromFolder": true,
-  "npm.packageManager": "npm"
+  "npm.packageManager": "npm",
+  "python.analysis.languageServerMode": "full",
+  "python.analysis.enableAsyncProgram": true,
+  "python.languageServer": "Default",
+  "python.analysis.typeCheckingMode": "basic", // or "strict"
+  "python.analysis.typeshedPaths": [ ".venv/Lib/site-packages" ],
+  "workbench.colorTheme": "Gruvbox Dark Hard"
 }
