@@ -97,6 +97,8 @@
   "python.analysis.enableAsyncProgram": true,
   "python.languageServer": "Default",
   "python.analysis.typeCheckingMode": "basic", // or "strict"
-  "python.analysis.typeshedPaths": [ ".venv/Lib/site-packages" ],
-  "workbench.colorTheme": "Gruvbox Dark Hard"
+  "python.analysis.typeshedPaths": [
+    ".venv/Lib/site-packages"
+  ],
+  "update.showReleaseNotes": false
 }
